@@ -4,7 +4,10 @@ function sum(a, b) {
 function sub(a, b) {
   return a - b;
 }
-module.exports = {
-  sum,
-  sub,
-};
+function mul(a, b) {
+  return a * b;
+}
+function div(a, b) {
+  return a / b;
+}
+module.exports = { sum, sub, mul, div };
